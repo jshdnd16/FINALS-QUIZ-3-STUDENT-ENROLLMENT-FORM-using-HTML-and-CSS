@@ -40,3 +40,9 @@ body {
     background-position: center;
     background-size: cover;
 }
+
+button {
+    border-radius: 5px; 
+    height: 30px; 
+    width: 90px;
+}
