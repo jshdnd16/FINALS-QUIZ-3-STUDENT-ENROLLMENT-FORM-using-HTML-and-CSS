@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Enrollment Form</title>
+</head>
+<body>
+    <h1>Student Enrollment Form</h1>
+    <form action="">
+        <div>
+            <h2>Instructions: </h2>
+            <ol>
+                <li>Fill in the blanks.</li>
+                <li>Check your interests.</li>
+                <li>Click "Enroll Now" to submit.</li>
+            </ol>
+        </div>
+
+        <br>
+
+        <div>
+            <label for="fname">Full Name: </label>
+            <input type="text" id="fname" name="fname" placeholder="Full Name" required> 
+        </div>
+
+        <br>
+
+        <div>
+            <label for="email">Email: </label>
+            <input type="text" id="email" name="email" placeholder="name@gmail.com" required>
+        </div>
+
+        <br>
+
+        <div>
+            <label for="age">Age: </label>
+            <input type="nummber" id="age" name="age" min="0" max="99" required>
+        </div>
+
+        <br>
+
+        <div>
+            <label for="Sex">Sex: </label>
+
+            <input type="radio" name="sex" value="Male" required>
+            <label for="Male">Male</label>
+            <input type="radio" name="sex" value="Female" required>
+            <label for="Female">Female</label>
+        </div>
+
+        <br>
+
+        <div>
+            <label for="course">Course Option: </label>
+            <select id="course">
+
+                <option value="BTVTED">Bachelor of Technical Vocational Teachers Education (BTVTED)</option>
+                <option value="ABELS">Bachelor of Arts in English Language Studies (ABELS)</option>
+                <option value="BSSW">Bachelor of Science in Social Work (BSSW)</option>
+                <option value="BSA">Bachelor of Science in Accountancy (BSA)</option>
+                <option value="BSAIS">Bachelor of Science in Accounting Information Systems (BSAIS)</option>
+                <option value="BSE">Bachelor of Science in Entrepreneurship (BSE)</option>
+                <option value="BSIT">Bachelor of Science in Information and Technology (BSIT)</option>
+                <option value="BSPA">Bachelor of Science in Public Administration (BSPA)</option>
+                <option value="DHRM">Diploma in Hotel and Restaurant Management (DHRS)</option>
+
+            </select>
+        </div>
+
+        <br>
+
+        <div>
+            <label>Interest: </label>
+
+            <input type="checkbox" id="Web Development" name="Web Development">
+            <label for="Web Development">Web Development</label>
+
+            <input type="checkbox" id="Data Science" name="Data Science">
+            <label for="Data Science">Data Science</label>
+
+            <input type="checkbox" id="Networking" name="Networking">
+            <label for="Networking">Networking</label>
+
+            <input type="checkbox" id="Graphic Design" name="Graphic Design">
+            <label for="Graphic Design">Graphic Design</label>
+
+            <br>
+            <br>
+
+            <input type="checkbox" id="Cooking" name="Cooking">
+            <label for="Cooking">Cooking</label>
+
+            <input type="checkbox" id="Digital Art" name="Digital Art">
+            <label for="Digital Art">Digital Art</label>
+
+            <input type="checkbox" id="Robotics" name="Robotics">
+            <label for="Robotics">Robotics</label>
+
+            <input type="checkbox" id="Music" name="Music">
+            <label for="Music">Music</label>
+
+            <input type="checkbox" id="Dancing" name="Dancing">
+            <label for="Dancing">Dancing</label>
+
+            <input type="checkbox" id="Singing" name="Singing">
+            <label for="Singing">Singing</label>
+        </div>
+
+        <br>
+
+        <div>
+            <button style="border-radius: 5px; height: 40px; width: 120px;">Enroll Now!</button>
+        </div>
+
+        <br>
+
+    </form>
+
+    <h1>List of Students Enrolled</h1>
+
+        <table class="content-table">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Age</th>
+                <th>Sex</th>
+                <th>Course</th>
+                <th>Interests</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <th>023A-12345</th>
+                <th>Emily</th>
+                <th>emily0712@gmail.com</th>
+                <th>18</th>
+                <th>Male</th>
+                <th>BSE</th>
+                <th>Networking</th>
+            </tr>
+            <tr>
+                <th>023A-01123</th>
+                <th>Joshua</th>
+                <th>joshua0304@gmail.com</th>
+                <th>20</th>
+                <th>Male</th>
+                <th>BSIT</th>
+                <th>Graphic Design</th>
+            </tr>
+            <tr>
+                <th>023A-04567</th>
+                <th>Aaron</th>
+                <th>aaron125@gmail.com</th>
+                <th>19</th>
+                <th>Male</th>
+                <th>BSIT</th>
+                <th>Graphic Design</th>
+            </tr>
+            <tr>
+                <th>023A-10510</th>
+                <th>John</th>
+                <th>john914@gmail.com</th>
+                <th>18</th>
+                <th>Male</th>
+                <th>BSIT</th>
+                <th>Web Development</th>
+            </tr>
+            <tr>
+                <th>023A-11110</th>
+                <th>Patric</th>
+                <th>Patric1008@gmail.com</th>
+                <th>20</th>
+                <th>Male</th>
+                <th>BSIT</th>
+                <th>Data Science</th>
+            </tr>
+            <tr>
+                <th>023A-06645</th>
+                <th>Mary</th>
+                <th>mary123@gmail.com</th>
+                <th>20</th>
+                <th>Male</th>
+                <th>BSA</th>
+                <th>Data Science</th>
+            </tr>
+            <tr>
+                <th>023A-18200</th>
+                <th>Din</th>
+                <th>dinqwerty@gmail.com</th>
+                <th>20</th>
+                <th>Male</th>
+                <th>BSA</th>
+                <th>Networking</th>
+            </tr>
+        </tbody>
+    </table>
+
+    <br>
+    
+</body>
+</html>
